@@ -20,7 +20,7 @@ p.error {
 }
 
 div.error {
-    color: #fff;
+    color:#f00;
 }
 
 a[href] {
@@ -48,7 +48,7 @@ h1:hover {
 
 
 p::selection {
-    background-color: ghostwhite;
+    background-color: crimson;
 }
 
 a::before {
