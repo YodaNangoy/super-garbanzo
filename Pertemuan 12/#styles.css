@@ -1,0 +1,56 @@
+p {
+    color: greenyellow;
+}
+.error {
+    color:darkred;
+}
+p.error {
+    color: whitesmoke;
+}
+
+.success.backflip {
+    color: gold;
+    border : 10px solid black
+}
+#top-box {
+    background-color: darkgray;
+}
+#bottom-box {
+    background-color: lightsteelblue;
+}
+
+div.error {
+    color: #fff;
+}
+
+a[href] {
+    font-size: 25px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: goldenrod;
+}
+
+a[href$=".ac.id"] {
+    background-color: royalblue;
+}
+a[href$=".com"] {
+    background-color: gold;
+    color:red;
+}
+a[href*="facebook"] {
+    background-color: darkslategray;
+}
+
+h1:hover {
+    color: yellow;
+    background-color: black;
+}
+
+
+p::selection {
+    background-color: ghostwhite;
+}
+
+a::before {
+    content:"Get-";
+}
