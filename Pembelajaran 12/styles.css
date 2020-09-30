@@ -13,14 +13,14 @@ p.error {
     border : 10px solid black
 }
 #top-box {
-    background-color: lightslategray;
+    background-color: darkgray;
 }
 #bottom-box {
     background-color: lightsteelblue;
 }
 
 div.error {
-    color: mediumpurple;
+    color: #fff;
 }
 
 a[href] {
