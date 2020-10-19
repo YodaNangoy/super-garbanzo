@@ -1,0 +1,23 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    width: 105vw;
+    height: 110vh;
+}
+h1  {
+    font-family: "Give Your Glory", cursive;
+    font-size: 3.825em;
+    width: 40%;
+    margin: 10px auto;
+    width: 100vmin;
+    line-height: 3ex;
+}
+h3{
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.975rem;
+    margin: 90px auto;
+}
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
