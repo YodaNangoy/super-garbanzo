@@ -5,7 +5,7 @@ for(let i=0; i<nilai.length; i++) {
 }
 console.log(nilai);
 
-let john = ["Chris", "Yoda", 77, true];
+let chris = ["Chris", "Yoda", 77, true];
 
 console.log(chris[chris.length - 1]);
 console.log (chris);
@@ -33,14 +33,14 @@ console.log(chris.join(" - "));
 //unshift
 chris.unshift("Yoda");
 chris.unshift("YYY");
-console.log(virgin.join(" --- "));
+console.log(chris.join(" --- "));
 
 //splice()
 chris.splice(3,0, "Limitless","adalah nama saya");
 console.log(chris.join(" - "));
 
 //concat()
-let all=chris.concat(baju,warna );
+let all=chris.concat("baju","warna" );
 console.log(all.join(" -- "));
 
 //slice()
@@ -49,9 +49,9 @@ let minumanJus = minuman.slice(0, 3);
 console.log(minumanJus);
 
 //sort()
-let fruits = ["Jeruk", "Apel", "Mangga", "Jambu"];
+let buah = ["Jeruk", "Apel", "Mangga", "Jambu"];
 buah.sort();
-console.log(fruits); 
+console.log(buah); 
 
 // bilangan.sort();
 // console.log(bilangan); 
@@ -68,5 +68,5 @@ console.log(bilangan.sort(urutDariTerbesar));
 
 //Reverse()
 let negaraAsia = ["Jepang", "Indonesia", "Thailand", "India"];
-negara.sort().reverse();
+negaraAsia.sort().reverse();
 console.log(negaraAsia);
